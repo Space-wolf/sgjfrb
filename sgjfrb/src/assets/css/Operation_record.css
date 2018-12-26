@@ -1,0 +1,98 @@
+.Operation_record{
+    width: 85%;
+    float: left;
+    position: relative;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.Operation_record h3{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Operation_record p{
+    font-size: 12px;
+    color: #83858C;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.Operation_time{
+    width: 500px;
+    float: left;
+}
+.Operation_time input{
+    width: 110px;
+    height: 26px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: -1px
+}
+.Operation_time span{
+    display: inline-block;
+    height: 26px;
+    background: #ccc;
+    line-height: 26px;
+    color: #565555;
+    padding: 1px 5px;
+    margin-left: -5px;
+}
+.Operation_record_con table {
+    width: 1000px;
+    height: auto;
+    overflow: hidden;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+.Operation_record_con th{
+    color: #4F6AAF;
+    
+}
+.Operation_record_con th, .Operation_record_con td {
+    min-height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 12px;
+}
+.paging {
+    display: inline-block;
+    height: 34px;
+    margin-top: 38px;
+    margin-bottom: 30px;
+}
+
+.paging span {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid #a5a6a6;
+    margin-right: 10px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.paging .prev_page {
+    fill: #797a7a;
+    background: url(../svg/prev_page.svg) no-repeat center;
+}
+
+.paging .next_page {
+    background: url(../svg/next_page.svg) no-repeat center;
+}
+
+.active{
+    background: #4F6AAF;
+    color: #fff;
+    border: 1px solid #4F6AAF !important;
+}
+
+
+
+
+
+
+
+
+
